@@ -24,3 +24,9 @@ jobs:
         run: |
           npm install
           npm run build
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            ./dist/discord-status-plugin.js
