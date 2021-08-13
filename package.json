@@ -15,7 +15,8 @@
   "license": "ISC",
   "type": "module",
   "betterdiscord": {
-    "discord_snowflake": "142347724392497152"
+    "discord_snowflake": "142347724392497152",
+    "source": "https://github.com/notmike101/betterdiscord-status"
   },
   "dependencies": {
     "@types/bandagedbd__bdapi": "^0.3.1",
