@@ -1,6 +1,5 @@
+import { BdApi } from 'bandagedbd__bdapi';
 import { StatusPage } from '@/StatusPage';
-
-const BdApi: any = global.BdApi;
 
 class DiscordStatus {
   private statusPage: StatusPage | null = null;
